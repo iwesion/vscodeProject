@@ -1,7 +1,7 @@
 {
-	"name": "taro-create-tsx",
-	"displayName": "taro-create-tsx",
-	"description": "create taro class with tsx and lessss",
+	"name": "create-custom-template",
+	"displayName": "create-custom-template",
+	"description": "Customize your own templates",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.69.0"
@@ -17,7 +17,7 @@
 		"commands": [
 			{
 				"command": "extension.createTaroSpecificFile",
-				"title": "添加模板文件,默认添加tsx+less"
+				"title": "添加模板文件,默认taro模板"
 			}
 		],
 		"menus": {
