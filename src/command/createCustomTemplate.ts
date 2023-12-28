@@ -1,7 +1,7 @@
 /*
  * @Author: wesion
  * @Date: 2022-07-25 10:21:38
- * @LastEditTime: 2022-07-28 14:54:46
+ * @LastEditTime: 2023-02-24 18:54:24
  * @Description: 
  */
 import * as vscode from 'vscode';
@@ -81,7 +81,7 @@ function createComponentFile(templateDirPath: string, templateFileName: string, 
     //模板文件名的后缀
     var templateFileNameSuffix = "";
     if (templateFileNameArr.length > 1) {
-        templateFileNameSuffix = templateFileName.substring(templateFileNameWithoutSuffix.length - 1);
+        templateFileNameSuffix = templateFileName.substring(templateFileNameWithoutSuffix.length);
     }
     //拼接好完整的目标路径
     let targetPath = targetFilePath + '/' + targetFileName + templateFileNameSuffix;
